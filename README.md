@@ -1,7 +1,9 @@
 # forum
 
 --INTRO--
-Here, let's develop a forum - to learn how to do it in php and mysql and help each other. It's a project to learn how to code. For beginners who know basic php and mysql syntax.
+Here, let's develop a forum/forum-building kit - to learn how to do it in php and mysql and help each other. It's a project to learn how to code. For beginners who know basic php and mysql syntax.
+
+We will use http://www.discourse.org/ as our model for the design, you can see an example at http://community.gemsofwar.com/. However, be encouraged to be creative and do something exciting, new. The idea is that the topic of the forums that can be created can be oriented at design & development. So we can think of that as orientation when adding functionality. We won't add any very advanced functions, at least until we have the basic forum-kit working. However, it should be not only a forum with comments and so on but feature different options of how to lay out the forum, build categories, make mod/admin structures and so on. So there should be a lot of flexibility. It should allow people to create their own forums. We take it step by step.
 
 To work with this, if you haven't yet, set up a WAMP or LAMP or XAMPP on your computer. If you don't know what that is or need help just write a comment or contact me, I'll help you. As another first option if you don't know something I suggest you visit w3schools.com, which is easy to understand and excellent.
 
