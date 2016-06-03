@@ -33,7 +33,7 @@ Main Folder ->subdirectories "displayed", "includes", "database" and "resources"
 
 --FOLDER CONTENTS--
 
-In the "displayed" folder, I will put the file "index.php". This is traditionally the starting page. It will hold the html of the starting / main page and some php code that displays the html we need to display. This is the only folder the website visitor should have access to. At the beginning, "index.php" will be the page where the categories for the threads are displayed. If you click on a category, a new page will open that shows the threads belonging to the category. 
+In the "displayed" folder, I will put the file "index.php". This is traditionally the starting page. It will hold the html of the starting / main page and some php code that displays the html we need to display. This is the only folder the website visitor should have access to. At the beginning, "index.php" will be the page where the categories for the threads are displayed. If you click on a category, a new page will open that shows the threads belonging to the category.
 
 The php code in index.php should do nothing but call functions that display in html what the user should see. The functions themselves should be in files contained in the "includes" folder. Pictures and other resources used should be in the "resources" folder. In the "database" folder, there will be a "mysql_setup.php" file that sets up the mysql tables for you. It will be changed everytime we add something new to the database. So first it will delete the old tables and then create the updated tables. It will connect to the database using the login data from the user-dependent "connect_data" file as described in "GETTING STARTED" above.
 
@@ -46,3 +46,5 @@ maybe not quite right, feel free to make better suggestions:
 I put up some files and code to get started, just to outline a basic structure to get us going. Feel free to change anything you like and please check my code for errors before you get going and comment on them, I just quickly set up some code and didn't test or debug it. The code doesn't work yet and I didn't set up any mysql yet.
 
 Great you are participating! :)
+
+You can join our [Gitter chatroom](https://gitter.im/Aliin/forum) or our [Discord server](https://discord.gg/rubick-nissa-argy) to discuss this in an instant messaging format.
