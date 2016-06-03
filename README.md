@@ -12,7 +12,8 @@ So how do we start?
 To work with everything on your own computer and be able to test it, as mentioned, you need to set up XAMPP or equivalents - and also get Git for your computer. Otherwise, you can just write code online. I'm just learning GitHub, but I suspect you won't be able to run the code if you do that.
 You will have to create a new Database - lets call it "OurGitHubForum" - in mysql (e.g. via browser -> http://localhost/phpmyadmin). If you don't know how to do that, contact me or research it on the internet. Second, after you downloaded the code from GitHub, open the folder "database" and make a new file called "connect_data.php". Put the following code in it:
 
-```<?PHP
+```
+<?PHP
 $servername = "[put in your servername, usually: localhost]";
 $username = "[put in your username for phpmyadmin]";
 $password = "[put in your password for phpmyadmin]";
