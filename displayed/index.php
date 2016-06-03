@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>Our Forum!</head>
+	<head>
+		<title>Our Forum!</title>
+	</head>
 <body>
 
 <div class="header">
-<h1>Our New Forum!</h1>
+	<h1>Our New Forum!</h1>
 </div>
+
 <div class="sidebar">Left Sidebar</div>
 
 <!-- This will be the div that holds all the categories. -->
