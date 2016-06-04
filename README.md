@@ -40,4 +40,4 @@ I put up some files and code to get started, just to outline a basic structure t
 
 Great you are participating! :)
 
-You can join our [Gitter chatroom](https://gitter.im/Aliin/forum) or our [Discord server](https://discord.gg/rubick-nissa-argy) to discuss this in an instant messaging format.
+You can join our [Gitter chatroom](https://gitter.im/Aliin/forum) or our [Discord server](https://discord.gg/013EGhm7P3o6apo6S) to discuss this in an instant messaging format.
