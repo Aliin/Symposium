@@ -11,10 +11,11 @@ These are the contribution guidelines that include how to contribute, what to co
 8. Operators such as `!` or `++` MUST NOT have a preceding space.
 9. `,` or `;` MUST NOT have preceding space.
 10. There MUST be a space preceding and proceeding an equals sign when declaring a variable.
+11. Use double quotes when quotes are required.
 
 There are many more therefore I will show an example:
 ```
-var i = 0;
+var zebra = "twenty";
 if (condition) {
   doSomething();
 }
