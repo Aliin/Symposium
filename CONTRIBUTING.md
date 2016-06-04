@@ -32,3 +32,8 @@ for (i = 5; i < 100; i++) {
   interating++;
 }
 ```
+
+#PHP
+- Code MUST follow a "Coding Style Guide" PSR-1 and PSR-2: 
+      http://www.php-fig.org/psr/psr-1/
+      http://www.php-fig.org/psr/psr-2/
