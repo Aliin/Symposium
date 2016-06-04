@@ -10,7 +10,7 @@
 <div class="sidebar">Left Sidebar</div>
 <!-- This will be the div that holds all the categories. -->
 <div class="cat_wrapper">
-<?php
+<!-- <?php
 	//This php code should do nothing but display the data that is given by functions in another, not user-accessible file.
 
 	//get the file that holds functions to display the posts.
@@ -24,7 +24,7 @@
 		echo $cat->title;
 		//function is to be extended.
 	}
-?>
+?> -->
 </div>
 <div class="footer">
 </div>

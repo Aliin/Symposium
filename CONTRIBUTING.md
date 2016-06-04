@@ -30,7 +30,7 @@ while (!condition) {
   break;
 }
 for (i = 5; i < 100; i++) {
-  interating++;
+  iterating++;
 }
 ```
 
