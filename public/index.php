@@ -4,15 +4,15 @@
     <title>Symposium Forum Software</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-		<link rel="stylesheet" type="text/css" href="styles/main.css">	
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Users</li>
-            <li>About</li>
-            <li>FAQ</li>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
         </ul>
     </nav>
     <div class="sidebar"></div>
