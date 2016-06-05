@@ -1,12 +1,19 @@
 <?PHP
 function setup_db() {
 
+	$connection = new mysqli($_POST['servername'], $_POST['username'], $_POST['password'], $_POST['database']);
+	
+	if ($connection->connect_error)
+	{
+		die("connection to server or database failed: " . $connection->connect_error);
+	}
+
 	$clearTables = "IF OBJECT_ID('posts', 'U') IS NOT NULL 
-  DROP TABLE posts; IF OBJECT_ID('people', 'U') IS NOT NULL 
-  DROP TABLE people; IF OBJECT_ID('categories', 'U') IS NOT NULL 
-  DROP TABLE categories";
+	  DROP TABLE posts; IF OBJECT_ID('people', 'U') IS NOT NULL 
+	  DROP TABLE people; IF OBJECT_ID('categories', 'U') IS NOT NULL 
+	  DROP TABLE categories";
   
-  mysqli_query($connection, $clearTables);
+  	mysqli_query($connection, $clearTables);
 	
 	$sql = "CREATE TABLE posts(
 	 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -35,9 +42,9 @@ function setup_db() {
 	  name VARCHAR(20) NOT NULL
 	  )";
 	  
-    mysqli_query($connection, $sql);
+    	mysqli_query($connection, $sql);
     
-    mysqli_close($connection);
+    	mysqli_close($connection);
 
 }
 
