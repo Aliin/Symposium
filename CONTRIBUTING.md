@@ -14,7 +14,7 @@ These are the contribution guidelines that include how to contribute, what to co
 11. Use double quotes when quotes are required.
 
 There are many more therefore I will show an example:
-```
+```javascript
 var zebra = "twenty";
 if (condition) {
   doSomething();
@@ -35,6 +35,6 @@ for (i = 5; i < 100; i++) {
 ```
 
 #PHP
-- Code MUST follow a "Coding Style Guide" PSR-1 and PSR-2: 
-      http://www.php-fig.org/psr/psr-1/
-      http://www.php-fig.org/psr/psr-2/
+- Code MUST follow a "Coding Style Guide" [PSR-1](http://www.php-fig.org/psr/psr-1/) and [PSR-2](http://www.php-fig.org/psr/psr-2/). 
+      
+      
