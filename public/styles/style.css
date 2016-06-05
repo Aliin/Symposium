@@ -19,7 +19,9 @@ nav > ul > li > a {
   padding: 8px;
   color: #ecf0f1;
   text-decoration: none;
+  transition: all 0.3 ease;
 }
 nav > ul > li > a:hover {
-
+  background-color: #2980b9;
+  transition: all 0.3 ease;
 }
