@@ -9,18 +9,12 @@ If you want to work on this you'll need to set up WAMP, LAMP, or XAMPP on your c
 
 If you'd like to contribute to this project or test it you must set up XAMPP or something similar. You will also need Git or GitHub's Desktop software [here](http://desktop.github.com).
 
-You will have to create a new Database - lets call it "OurGitHubForum" - in MySQL (e.g. via browser -> http://localhost/phpmyadmin). If you don't know how to do that, contact me or research it on the internet. Second, after you downloaded the code from GitHub, open the folder "database" and make a new file called "connect_data.php". Put the following code in it:
+(The following functionality will be implemented in the next days.)
+Start your server (XAMPP or whatever). Open the server's directory and inside, the 'www' directory. Create another 'www' directory in the first one, if you don't have one already. Put the project folder inside. Then open this link with your browser: http://localhost/www/forum/database/mysql_setup.php. It should open a page that allows you to put your phpmyadmin login data into a form. Do it. Put "localhost" in the "server" field, except if you set up a different servername. If you haven't set up any login data for phpmyadmin, then type for username "root" and for a password "0". Once you press the submit button, it will ask you to confirm and then open a page that says that your tables have been set up. What happens is that the program checks if there is already a database "symposium", if not it creates one, and then it overwrites all the relevant tables.
 
-```
-<?PHP
-$servername = "[put in your servername, usually: localhost]";
-$username = "[put in your username for phpmyadmin]";
-$password = "[put in your password for phpmyadmin]";
-$database = "[put in the database name, e.g.: OurGitHubForum]";
-?>
-```
+##Update
 
-Now just call the database/mysql_setup.php file using your browser - just once - and check in phpmyadmin to make sure that the tables were created correctly. If not, make sure that you put in the correct data in the file you created and otherwise comment the bug here in GitHub. Every time you download a new version of the code that changes the tables, run the file mysql_setup.php again. It will delete the old tables and create the updated tables.
+If there are any changes in the database structure, it will noted in the readme. You will have to make sure that the tables are up to date. To do that, after you download the new version of the symposium, you need to run the mysql_setup again. Just repeat the steps above. All the tables in your database will be updated. However, any extra data you put in the tables for testing purposes may be lost.
 
 ## Structure
 
@@ -32,7 +26,7 @@ Main Folder -> subdirectories "public", "includes", "database" and "resources".
 
 In the "public" folder, I will put the file "index.php". This is traditionally the starting page. It will hold the html of the starting / main page and some php code that displays the html we need to display. This is the only folder the website visitor should have access to. At the beginning, "index.php" will be the page where the categories for the threads are displayed. If you click on a category, a new page will open that shows the threads belonging to the category.
 
-The php code in index.php should do nothing but call functions that display in html what the user should see. The functions themselves should be in files contained in the "includes" folder. Pictures and other resources used should be in the "resources" folder. In the "database" folder, there will be a "mysql_setup.php" file that sets up the mysql tables for you. It will be changed everytime we add something new to the database. So first it will delete the old tables and then create the updated tables. It will connect to the database using the login data from the user-dependent "connect_data" file as described in "GETTING STARTED" above.
+The php code in index.php should do nothing but call functions that display in html what the user should see. The functions themselves should be in files contained in the "includes" folder. Pictures and other resources used should be in the "resources" folder. In the "database" folder, there will be a "mysql_setup.php" file that sets up the database and mysql tables for you. It will be changed everytime we add something new to the database. So first it will delete the old tables and then create the updated tables.
 
 
 # Get Crackin'
