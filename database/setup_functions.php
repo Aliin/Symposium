@@ -45,6 +45,8 @@ function setup_db() {
     	mysqli_query($connection, $sql);
     
     	mysqli_close($connection);
+    	
+    	return 0;
 
 }
 
