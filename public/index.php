@@ -4,13 +4,15 @@
     <title>Symposium Forum Software</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">	
 </head>
 <body>
     <nav>
         <ul>
             <li>Home</li>
-            <li>Members</li>
-            <li>Staff</li>
+            <li>Users</li>
+            <li>About</li>
+            <li>FAQ</li>
         </ul>
     </nav>
     <div class="sidebar"></div>
