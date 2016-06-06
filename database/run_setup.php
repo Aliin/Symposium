@@ -11,6 +11,9 @@ if ($isSetup == 0)
   echo "database couldn't be set up. Please please please make a bug report.";
 }
 
+echo '<br>';
+echo '<h5>Next step: </h5><p class="instruction">Please go to phpmyadmin and set up access to the symposium database: <br>';
+echo 'set up a user "symposium_server" that has access to the symposium database and give him the password "my_symposium". </br>'
 echo "you can close this window now.";
 
 ?>
