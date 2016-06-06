@@ -6,6 +6,10 @@ function get_categories()
 	//Function should return an array that holds an object for each category which stores the mysql data from the categories table.
 	//the objects have to have the "title" property.
 	
+	require 'connectDB.php';
+	
+	
+	
 	return $cat_array;
 }
 
