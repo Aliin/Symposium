@@ -1,12 +1,20 @@
 <?PHP
+
+/*
+ *this function connects to the database using the phpmyadmin-data given in the html form. 
+ *If no database "symposium" exists, it sets it up.
+ */
 function setup_db() {
 
-	$connection = new mysqli($_POST['servername'], $_POST['username'], $_POST['password'], $_POST['database']);
+	$connection = new mysqli($_POST['servername'], $_POST['username'], $_POST['password']);
 	
 	if ($connection->connect_error)
 	{
-		die("connection to server or database failed: " . $connection->connect_error);
+		die("connection to server failed: " . $connection->connect_error);
 	}
+
+	CREATE DATABASE IF NOT EXISTS symposium;
+	mysqli_select_db($connection, "symposium");
 
 	$clearTables = "IF OBJECT_ID('posts', 'U') IS NOT NULL 
 	  DROP TABLE posts; IF OBJECT_ID('people', 'U') IS NOT NULL 
