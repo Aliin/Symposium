@@ -75,11 +75,13 @@ function setup_db() {
 	  mysqli_query($connection, $sql);
     
 	//insert test values into tables
-	$sql = "INSERT INTO categories (name) VALUES ('Thriller'), ('Horror'), ('Romance');
-	   		INSERT INTO people (username, first_name, last_name, password, email) VALUES 
+	$sql = "INSERT INTO categories (name) VALUES ('Thriller'), ('Horror'), ('Romance')";
+	mysqli_query($connection, $sql);
+	$sql = "INSERT INTO people (username, first_name, last_name, password, email) VALUES 
 	    		('John123', 'John', 'Smith', 'mypw', 'js@mail.com'),
-	    		('Fred456', 'Fred', 'Gardner', 'passW', 'fg@mail.com');
-	    	INSERT INTO posts (author_id, title, body, category_id) VALUES
+	    		('Fred456', 'Fred', 'Gardner', 'passW', 'fg@mail.com')";
+	mysqli_query($connection, $sql);
+	$sql = "INSERT INTO posts (author_id, title, body, category_id) VALUES
 	    		(0, 'James Bond', 'This is a suspenseful movie', 0),
 	    		(1, 'Notting Hill', 'This is a romantic movie', 2)";
 	mysqli_query($connection, $sql);
