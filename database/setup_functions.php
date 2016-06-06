@@ -24,10 +24,13 @@ function setup_db() {
 	{
 		die("connection to server failed: " . $connection->connect_error);
 		return 1;
+	} else {
+		echo 'connection successful';
 	}
 	
 	//check if database symposium exists, otherwise create it, and select it.
-	CREATE DATABASE IF NOT EXISTS symposium;
+	$createDB = "CREATE DATABASE IF NOT EXISTS symposium";
+	mysqli_query($connection, $createDB);
 	$dbconn = mysqli_select_db($connection, "symposium");
 	if (!$dbconn) {
 		die("connection to database failed: ");
