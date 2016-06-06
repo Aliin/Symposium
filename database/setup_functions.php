@@ -77,8 +77,7 @@ function setup_db() {
 	//insert test values into tables
 	$sql = "INSERT INTO categories (name) VALUES ('Thriller'), ('Horror'), ('Romance')";
 	mysqli_query($connection, $sql);
-	$sql = "INSERT INTO people (username, first_name, last_name, password, email) VALUES 
-	    		('John123', 'John', 'Smith', 'mypw', 'js@mail.com'),
+	$sql = "INSERT INTO people (username, first_name, last_name, password, email) VALUES ('John123', 'John', 'Smith', 'mypw', 'js@mail.com'),
 	    		('Fred456', 'Fred', 'Gardner', 'passW', 'fg@mail.com')";
 	mysqli_query($connection, $sql);
 	$sql = "INSERT INTO posts (author_id, title, body, category_id) VALUES
