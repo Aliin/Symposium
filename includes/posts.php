@@ -8,7 +8,7 @@ function get_categories()
 	
 	require 'connectDB.php';
 	
-	
+	$query = 
 	
 	return $cat_array;
 }
