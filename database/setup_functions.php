@@ -73,11 +73,11 @@ function setup_db() {
 	  name VARCHAR(20) NOT NULL
 	  )";
 	  
-    	mysqli_query($connection, $sql);
+    mysqli_query($connection, $sql);
     
-    	mysqli_close($connection);
+    mysqli_close($connection);
     	
-    	return 0;
+    return 0;
 
 }
 
