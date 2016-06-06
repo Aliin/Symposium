@@ -6,11 +6,7 @@
  */
 function setup_db() {
 	
-	//if user posted "0" as a password change it to empty string.
-		//htmlspecialchars cleans user input from dangerous code.
-	if (htmlspecialchars($_POST == "0")) {
-		$_POST == "";
-	}
+
 	//if user posts nothing return error.
 	if (empty(htmlspecialchars($_POST['servername'])) || empty(htmlspecialchars($_POST['username']))) {
 		return 1;
