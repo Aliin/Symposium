@@ -17,7 +17,7 @@ a server with the forum software has to set up with this file also. -->
             <!-- This form takes the phpmyadmin user data. When the submit button is pressed, 
             the data is posted to the file "run_setup.php". -->
             <div class="myForm">
-                <form action="run_setup.php" method="post">
+                <form action="database/run_setup.php" method="post">
                     Please give the server name, usually "localhost." <br>
                     <input type="text" name="servername"><br>
                     Please give your username on phpmyadmin. If you haven't changed it, it's "root".<br>
