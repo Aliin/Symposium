@@ -14,7 +14,8 @@ a server with the forum software has to set up with this file also. -->
             <h1 class="">
                 Setup Database (or update).
             </h1>
-            <!-- This form takes the phpmyadmin user data. -->
+            <!-- This form takes the phpmyadmin user data. When the submit button is pressed, 
+            the data is posted to the file "run_setup.php". -->
             <div class="myForm">
                 <form action="run_setup.php" method="post">
                     Please give the server name, usually "localhost." <br>
