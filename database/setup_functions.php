@@ -74,7 +74,7 @@ function setup_db() {
 	  )";
 	  mysqli_query($connection, $sql);
     
-	//insert test values into tables
+	//insert test values into tables. Not working yet for some reason.
 	$sql = "INSERT INTO categories (name) VALUES ('Thriller'), ('Horror'), ('Romance');
 	   		INSERT INTO people (username, first_name, last_name, password, email) VALUES 
 	    		('John123', 'John', 'Smith', 'mypw', 'js@mail.com'),
