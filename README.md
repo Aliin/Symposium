@@ -31,6 +31,8 @@ The php code in index.php should do nothing but call functions that display in h
 # Get Crackin'
 I put up some files and code to get started, just to outline a basic structure to get us going. Feel free to change anything you like and please check my code for errors before you get going and comment on them, I just quickly set up some code and didn't test or debug it. The code doesn't work yet and I didn't set up any MySQL yet.
 
+To develop and test the forum software, follow the instructions on setting up the database above and make sure there is a user in phpmyadmin that has access to the symposium database and whose username is "symposium_server" and password "my_symposium".
+
 Great you are participating! :)
 
 You can join our [Gitter chatroom](https://gitter.im/Aliin/forum) or our [Discord server](https://discord.gg/013EGhm7P3o6apo6S) to discuss this in an instant messaging format.
