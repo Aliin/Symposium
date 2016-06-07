@@ -1,7 +1,7 @@
 <?PHP
 	//This file runs a database setup and gives further instructions.
 	//Include the file that holds the functions we need.
-    require 'setup_functions.php';
+    require 'helpers/setup_functions.php';
     //run the database setup function. It should return 0 on terminating.
     $isSetup = setup_db();
     
