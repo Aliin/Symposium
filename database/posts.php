@@ -1,5 +1,7 @@
 <?PHP
 
+require '../../includes/classes/category.php';
+
 function get_categories()
 {
 	//FUNCTION CODE
@@ -8,7 +10,7 @@ function get_categories()
 	
 	require 'helpers/connectDB.php';
 	
-	$query = 
+	
 	
 	return $cat_array;
 }
