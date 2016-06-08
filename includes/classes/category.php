@@ -13,7 +13,10 @@ class Category
         $this->name = $name;
         $query = "SELECT id FROM categories WHERE name = '$name'";
         $result = $connection->mysqli_query($query);
-        $row = mysqli_fetch_assoc($result);
-        $this->id = $row[0];
+        if ($row = mysqli_fetch_assoc($result)) {
+            $this->id = $row[0];
+        } else {
+            echo 'error: no such category';
+        }
     }
 }
