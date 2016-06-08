@@ -22,7 +22,7 @@
     //This php code should do nothing but display the data that is given by functions in another, not user-accessible file.
 
     //get the file that holds functions to display the posts.
-    require '../includes/posts.php';
+    require '../database/posts.php';
 
     //a function to be written in posts.php that returns an array of objects. Each object will be created from the mysql table for a category.
     $categories = get_categories();
