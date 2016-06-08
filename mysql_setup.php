@@ -24,7 +24,7 @@ a server with the forum software has to set up with this file also. -->
                     <input type="text" name="username"><br>
                     Please give your password on phpmyadmin. If you haven't changed it, put in nothing.<br>
                     <input type="text" name="password"><br>
-                    <button type="submit"></button>
+                    <button type="submit">submit</button>
                 </form>
             </div>
         </body>
