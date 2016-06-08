@@ -38,3 +38,11 @@ for (i = 5; i < 100; i++) {
 - Code MUST follow a "Coding Style Guide" [PSR-1](http://www.php-fig.org/psr/psr-1/) and [PSR-2](http://www.php-fig.org/psr/psr-2/). 
       
       
+# Commenting Code
+One of the most important aspects of writing code in a community is commenting it well. Basic commenting has a top priority if it is necessary so other developers understand what you're doing. In our case, since it is a beginner project - right now we are three people but I hope we'll find some more - I would like us to comment code in-depth so people understand what you're doing. That doesn't mean that you have to explain how syntax and code and languages work. We aren't making a tutorial. However, it means that
+
+On the top of a file we should explain what the file is supposed to do
+On the top of a function or class we should explain what the function / class does and what the function arguments mean and what arguments are required
+important: the variable and function names should be self-explanatory
+Any line or block whose meaning isn't easily discernible should be commented. You don't need to explain in detail how it works, just what it is supposed to do.
+Again, you don't need to explain basic syntax or anything.
