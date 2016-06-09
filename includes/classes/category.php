@@ -1,12 +1,16 @@
-<?PHP
-
+<!--
+----------------------------------------------------------------
+@project      : Symposium Forum Software
+@version      : v.0.1.0
+@author       : Open-source
+@description  : Category class
+----------------------------------------------------------------
+-->
+<?php
 class Category
 {    
     public $name;
-    
     public $id;
-
-    
     public $posts = array();
     
     function __construct($name) {
