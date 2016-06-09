@@ -8,13 +8,14 @@ class Category
 
     
     public $posts = array();
-    
+	
     function __construct($name) {
+		global $connection;
         $this->name = $name;
         $query = "SELECT id FROM categories WHERE name = '$name'";
-        $result = $connection->mysqli_query($query);
+        $result = mysqli_query($connection, $query);
         if ($row = mysqli_fetch_assoc($result)) {
-            $this->id = $row[0];
+            $this->id = $row['id'];
         } else {
             echo 'error: no such category';
         }
