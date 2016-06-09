@@ -1,14 +1,21 @@
-<?PHP
+<!--
+----------------------------------------------------------------
+@project      : Symposium Forum Software
+@version      : v.0.1.0
+@author       : Open-source
+@description  : Returns an array that holds an object for each category which stores the mysql data from the categories table.
+----------------------------------------------------------------
+-->
+<?php
 
 //File needs to be renamed into categories.php.
 require '../includes/classes/category.php';
 require 'helpers/connectDB.php';
 
+
 function get_categories()
 {
-	//FUNCTION CODE
-	//Function should return an array that holds an object for each category which stores the mysql data from the categories table.
-	//the objects have to have the "name" property.
+	//the objects have to have the "title" property.
 	
 	//connect to the database
 	
@@ -29,5 +36,3 @@ function get_categories()
 	//}
 	return $catArray;
 }
-
-?>
