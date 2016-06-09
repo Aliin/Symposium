@@ -1,7 +1,12 @@
+<!--
+----------------------------------------------------------------
+@project      : Symposium Forum Software
+@version      : v.0.1.0
+@author       : Open-source
+@description  : Setup/Update a database and tables to develop server side.
+----------------------------------------------------------------
+-->
 <!DOCTYPE html>
-<!-- This is a program for the developers. Anyone who wants to develop can run this file 
-through their browser to setup their database correctly or update it to the latest version. But later, anyone who wants to run
-a server with the forum software has to set up with this file also. -->
 <html>
     <head>
         <title>
