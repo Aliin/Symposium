@@ -1,9 +1,9 @@
 <!--
 ----------------------------------------------------------------
-@project      : Symposium Forum Software
-@version      : v.0.1.0
-@author       : Open-source
-@description  : The page that will be displayed to the user.
+@project       : Symposium Forum Software
+@version       : v0.1.0
+@author        : Open-source
+@description   : The page that will be displayed to the user.
 ----------------------------------------------------------------
 -->
 <!DOCTYPE html>
