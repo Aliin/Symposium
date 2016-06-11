@@ -1,3 +1,0 @@
-<br>
-Footer!
-<br>

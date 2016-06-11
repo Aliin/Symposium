@@ -9,7 +9,7 @@ require '../database/displayed_posts.php';
 $posts = get_posts($_GET['id']);
 
 foreach ($posts as $displayPost) {
-	require('../includes/posts/display_single_post.php');
+	require('../views/posts/display_single_post.php');
 	dPost($displayPost);
 }
 
