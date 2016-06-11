@@ -29,7 +29,8 @@ The php code in index.php should do nothing but call functions that display in h
 
 
 # Get Crackin'
-I put up some files and code to get started, just to outline a basic structure to get us going. Feel free to change anything you like and please check my code for errors before you get going and comment on them, I just quickly set up some code and didn't test or debug it. The code doesn't work yet and I didn't set up any MySQL yet.
+Where to start? Please check our Trello Board on what is open. We'll send you an invitation on request.
+https://trello.com/b/4UjjujEh/backend
 
 To develop and test the forum software, follow the instructions on setting up the database above and make sure there is a user in phpmyadmin that has access to the symposium database and whose username is "symposium_server" and password "my_symposium".
 
