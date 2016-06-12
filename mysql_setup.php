@@ -1,7 +1,7 @@
 <!--
 ----------------------------------------------------------------
 @project      : Symposium Forum Software
-@version      : v.0.1.0
+@version      : v0.1.0
 @author       : Open-source
 @description  : Setup/Update a database and tables to develop server side.
 ----------------------------------------------------------------
