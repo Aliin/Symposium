@@ -1,6 +1,8 @@
 # Introduction
 Together in this repository we will develop a forum software in PHP and MySQL. This project is for beginners to PHP and mySQL. Experience on actual projects is so important and this project will give you just that. If this project goes far and people actually begin to use this software it will be a wonderful addition to your portfolio.
 
+We are using CakePHP and MVC from now on and this Dev branch is the default until we have a version going.
+
 We will use the [Discourse](http://discourse.org) forum software as our model. You can see examples of this software in use at [Discourse's own forum](http://meta.discourse.org) or [Free Code Camp's forum](http://forum.freecodecamp.com). Although we are using this as our model, we do not want to directly copy it and we strongly encourage you to come up with something new and exciting. This forum software will be centered around design and development so we hope to add features that will specifically help people interested in that; when you are adding features make sure that you think about it from your perspective as well as other designers and developers. The software will not be advanced at first (you might call this pre-alpha, essentially still an idea at this point) but we hope to add lots of options on laying out the forum, advanced editing options like editing the code of the forum directly, add categories, forum staff and moderation structures.
 
 If you want to work on this you'll need to set up WAMP, LAMP, or XAMPP on your computer. Excellent guides are available with a simple Google or Duck Duck Go search so be sure to check that out.
