@@ -1,5 +1,8 @@
 # Contribution Guidelines
 These are the contribution guidelines that include how to contribute, what to contribute, and our coding standards.
+# What to do
+Please check our Trello Board. You can start on any open task and just write a comment here so we can assign you in Trello. If you want access to the Trello Board, just contact one of the collaborators.
+https://trello.com/b/4UjjujEh/backend
 # JavaScript and jQuery
 1. Class names MUST be declared in `camelCase`.
 2. `<script>` tags MUST NEVER be used except to reference an external JavaScript file. All JavaScript should be in a separate file, never inline.
