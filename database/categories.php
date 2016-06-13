@@ -9,8 +9,9 @@
 <?php
 
 //File needs to be renamed into categories.php.
-require '../includes/classes/category.php';
 require 'helpers/connectDB.php';
+require '../includes/classes/category.php';
+
 
 
 function get_categories()
