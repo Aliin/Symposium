@@ -6,9 +6,13 @@ For category title:
 "echo $cat->name;" without the quotation marks. I already put it in once as an example.
 
 If you want any other data then just write what you want inside the html code, I can substitute it by php code later.
+
+Leave the <a> tag as it is, it's important.
 -->
 <div class="category">
 
-<?php echo $cat->name; ?>
+    <a href="?php echo $MUP . $MUP . $DIS_POST . '?catId=' . $cat->id; ?>">
+        <?php echo $cat->name; ?>
+    </a>
 
 </div>
