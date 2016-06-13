@@ -37,7 +37,7 @@
 
     //loop through the category objects in the array successively and print their title property.
     foreach ($categories as $cat) {
-        echo $cat->title;
+        echo $cat->name;
         //function is to be extended.
     }
 ?> -->
