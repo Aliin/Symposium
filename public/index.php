@@ -3,7 +3,8 @@
 @project       : Symposium Forum Software
 @version       : v0.1.0
 @author        : Open-source
-@description   : The page that will be displayed to the user. It displays the categories and links to a display of the posts connected to a category
+@description   : The page that will be displayed to the user. 
+					It displays the categories and links to a display of the posts connected to a category.
 ----------------------------------------------------------------
 -->
 <?PHP 
