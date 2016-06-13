@@ -1,6 +1,15 @@
+<!--
+----------------------------------------------------------------
+@project       : Symposium Forum Software
+@version       : v0.1.0
+@author        : Open-source
+@description   : The page that will be displayed to the user.
+----------------------------------------------------------------
+-->
 <?PHP 
 
 include('../views/page/standard_header.php'); ?>
+
     <div class="cat_wrapper">
 	
     <?php
