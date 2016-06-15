@@ -31,4 +31,16 @@ class Welcome extends CI_Controller {
 		//loading twig view [Only one!]
 		$this->twig->display('welcome_message');
 	}
+
+	public function loginExample()
+	{
+		$checkLogin = $this->ion_auth->login('admin@admin.com', 'password');
+
+		if($checkLogin) {
+			echo 'Correct';
+		} else {
+			echo 'Wrong data';
+		}
+
+	}
 }
