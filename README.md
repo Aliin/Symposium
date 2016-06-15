@@ -40,4 +40,3 @@ To develop and test the forum software, follow the instructions on setting up th
 Great you are participating! :)
 
 You can join our [Discord server](https://discord.gg/013EGhm7P3o6apo6S) to discuss this in an instant messaging format.
-Example commit test by xQu <3
