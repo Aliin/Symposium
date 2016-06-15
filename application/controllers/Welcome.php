@@ -18,8 +18,17 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	//Things here will be avilable in all of controller
+    public function __construct()
+    {
+    	parent::__construct();
+    }
+
+    //index is always default function
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		//loading twig view [Only one!]
+		$this->twig->display('welcome_message');
 	}
 }
