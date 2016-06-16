@@ -1,0 +1,26 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<form method="post" action="http://symposium.dev/symposium/index.php/Admin_action/action/add_user">
+	<h5>Add User</h5>
+	<label>Username</label><br>
+	<input type="text" name="new_user"><br>
+	<label>Email</label><br>
+	<input type="text" name="email"><br>
+	<label>Password</label><br>
+	<input type="password" name="password"><br>
+	<label>Confirm Password</label><br>
+	<input type="password" name="pass_conf"><br>
+	<label>Which Usergroup?</label><br>
+	<input type="text" name="usergroup"><br>
+	<input type="submit">
+</form>
+
+</body>
+</html>

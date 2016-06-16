@@ -11,23 +11,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <body>
 
+<h5>User administration</h5>
+<a href="http://symposium.dev/symposium/index.php/Admin_panel/disp_forms/admin_add_user">Add New User</a><br>
+<a href="#">Edit User</a><br>
+<a href="#">Create Usergroup</a><br>
+<a href="#">Edit Usergroup and permissions</a><br>
 
+<h5>Database Settings</h5>
+<a href="#">Reset Databases</a><br>
+<a href="#">Set up new table for custom data</a><br>
 
-<form method="post" action="http://symposium.dev/symposium/index.php/Admin_action/action/add_user">
-	<h5>Add User</h5>
-	<label>Username</label><br>
-	<input type="text" name="new_user"><br>
-	<label>Email</label><br>
-	<input type="text" name="email"><br>
-	<label>Password</label><br>
-	<input type="password" name="password"><br>
-	<label>Confirm Password</label><br>
-	<input type="password" name="pass_conf"><br>
-	<label>Which Usergroup?</label><br>
-	<input type="text" name="usergroup"><br>
-	<input type="submit">
-</form>
-<!-- 
+<h5>Storage Settings</h5>
+<a href="#">Adjust User's storage options and space</a><br>
+
+<h5>Version Settings</h5>
+<a href="#">Upgrade/Downgrade Symposium Software</a><br>
+<a href="#">Update to a new version or reset to earlier version</a><br>
+
+<h5>Data Settings</h5>
+<a href="#">Import User and other Data</a><br>
+<a href="#">Backup Data</a><br>
+
+<h5>Plugins and Addons</h5>
+<a href="#">Install/Uninstall Plugins and Addons</a><br>
+
+<h5>Security</h5>
+<a href="#">Adjust Cookie Settings</a><br>
+<a href="#">Authentification Settings</a><br>
+<a href="#">Add Security measures</a><br>
+
+<h5>Logs</h5>
+<a href="#">Security Logs</a><br>
+<a href="#">Errors</a><br>
+
+<h5>Support</h5>
+<a href="#">Report Problem or Bug</h5><br>
+<a href="#">Contact us in case of serious security issue</a><br>
+
+<!-- FOR LATER FOR OTHER FILES
 <form method="post" action="http://symposium.dev/symposium/index.php/Admin_action/action/edit_user"><input type="submit">Edit User</form>
 <form method="post" action="http://symposium.dev/symposium/index.php/Admin_action/action/reset_database"><input type="submit">Reset Databases</form>
 <form method="post" action="http://symposium.dev/symposium/index.php/Admin_action/action/create_usergroup"><input type="submit">Create Usergroup</form>
