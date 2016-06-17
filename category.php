@@ -4,8 +4,8 @@
 	<title>Category Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
-	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
 </head>
 <body>
 <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
@@ -38,8 +38,8 @@
 </div>	
 
 <!-- JS at the end of the page for better loadtime -->
-<script type="text/javascript" src="js/vendor/jquery.js"></script>
-<script type="text/javascript" src="js/vendor/foundation.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="assets/js/vendor/jquery.js"></script>
+<script type="text/javascript" src="assets/js/vendor/foundation.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
