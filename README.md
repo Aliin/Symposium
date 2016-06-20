@@ -1,8 +1,5 @@
-#Important announcements
-We're voting on Frameworks etc till tomorrow 8pm CET. Please read the issue and join the discussion / vote on discord.
-
 # Introduction
-Together in this repository we will develop a forum software in PHP and MySQL. This project is for beginners to PHP and mySQL. Experience on actual projects is so important and this project will give you just that. If this project goes far and people actually begin to use this software it will be a wonderful addition to your portfolio.
+Together in this repository we will develop a forum software in PHP and MySQL with CodeIgniter Framework. This project is for beginners to PHP and mySQL. Experience on actual projects is so important and this project will give you just that. If this project goes far and people actually begin to use this software it will be a wonderful addition to your portfolio.
 
 We will use the [Discourse](http://discourse.org) forum software as our model. You can see examples of this software in use at [Discourse's own forum](http://meta.discourse.org) or [Free Code Camp's forum](http://forum.freecodecamp.com). Although we are using this as our model, we do not want to directly copy it and we strongly encourage you to come up with something new and exciting. This forum software will be centered around design and development so we hope to add features that will specifically help people interested in that; when you are adding features make sure that you think about it from your perspective as well as other designers and developers. The software will not be advanced at first (you might call this pre-alpha, essentially still an idea at this point) but we hope to add lots of options on laying out the forum, advanced editing options like editing the code of the forum directly, add categories, forum staff and moderation structures.
 
