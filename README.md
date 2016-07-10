@@ -1,3 +1,12 @@
+# Unless something changes this project is dead
+
+
+
+
+
+
+
+
 # Introduction
 Together in this repository we will develop a forum software in PHP and MySQL with CodeIgniter Framework. This project is for beginners to PHP and mySQL. Experience on actual projects is so important and this project will give you just that. If this project goes far and people actually begin to use this software it will be a wonderful addition to your portfolio.
 
